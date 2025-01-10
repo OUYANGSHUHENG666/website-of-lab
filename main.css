@@ -1,0 +1,602 @@
+/*--------------- Home Page--------------- */
+body{
+    font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.3;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: white;
+    padding: 0; 
+}
+td.top{
+  vertical-align: top;
+}
+
+
+/*--------------- Home Page--------------- */
+
+/* header section */
+div.header{
+  background-color: #013674;
+}
+img.headerimg{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+/* Navigation bar */
+
+nav {
+  background-color: #013674;
+  display: block;
+  margin: auto;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+nav ul li {
+  display: inline-block;
+  list-style-type: none;
+  font-size: 20px;
+
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+nav > ul > li > a {
+    color: rgb(255,255,255);
+    display: block;
+    line-height: 25px;
+    padding: 0 30px;
+    text-decoration: none;
+}
+nav > ul > li:hover > a {
+    color: #FFBF00;
+}
+.active {
+    color: #FFBF00;
+}
+
+
+/* content part */
+div.h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+div.h2{
+    font-size: 50px;
+    text-align: left;
+    text-indent:4em;
+    color: hsl(219, 93%, 24%);
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+div.h3{
+    font-size: 10px;
+    text-align: center;
+    text-indent:0em;
+    font-family:Arial, Helvetica, sans-serif;
+}
+div.h4{
+  font-size: 20px;
+  text-align: justify;
+  text-indent:2em;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+div.intro{
+    text-align: justify;
+    text-indent:2em;
+    font-size: 18px; 
+    padding-left: 3em;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+div.name{
+    text-align: center;
+    text-indent:2em;
+    font-size: 25px; 
+    font-weight: bold;
+    padding-left: 1em;
+    font-family:'Times New Roman', Times, serif;    
+}
+
+img.research-intro{
+  width: 100%;
+  height: 100%;
+  object-fit: contain; 
+  float:none; 
+  overflow: hidden;
+  padding-right: 3em;
+  padding-left: 1em;
+}
+
+img.Loc{
+  width: 20%;
+  height: 20%;
+  object-fit: cover;
+  float:initial; 
+  overflow: visible;
+}
+
+div.disress{
+  font-size: 17px; 
+  text-indent: 10em; 
+  line-height: 1.5; 
+  text-align: justify;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+p.title{
+  font-size: 25px; 
+  text-indent: 1em; 
+  line-height: 1.5; 
+  text-align: center;
+}
+
+p.content{
+  font-size: 25px; 
+  text-indent: 0.8em; 
+  line-height: 1.5; 
+  text-align: center;
+}
+
+
+
+/*--------------- News and Research Page--------------- */
+/* content part is the same as above temporally*/
+
+/*--------------- People Page--------------- */
+div.h2{
+    font-size: 35px;
+    text-align: left;
+    font-weight: bold;
+    color: hsl(219, 93%, 24%);
+    padding-left:1.5em;
+    padding-right:4em;
+}
+
+div.peopletitle{
+  font-size: 30px;
+  text-align: center;
+
+}
+ul.people{
+  padding: 0;
+  font-size: medium;
+  list-style-type: none;
+}
+li.people{
+  padding-left: 180px
+}
+img.peopleimg{
+  width: 300px;
+  height: 300px;
+  object-fit: contain; 
+  float:none; 
+  overflow: visible;
+}
+
+p.alumni{
+  font-size: 30px; 
+  text-indent: 1em; 
+  line-height: 1; 
+  text-align: center;
+}
+
+
+div.peoplecontent{
+  font-size: 25px; 
+  text-align: justify;
+
+  text-indent: 0em;
+  line-height: 1.5em;
+  margin-left:0em;
+  margin-right:5em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+div.peopleEmail{
+  font-size: 17px; 
+  text-align: justify;
+  padding-left:5em;
+  padding-right:5em
+  text-indent: 0m;
+  line-height: 1.5em;
+  margin-left:2.3em;
+  margin-right:5em
+}
+
+div.peoplesubcontent{
+  font-size: 18zpx;
+  text-align: justify;
+  padding-left:0em;
+  padding-right:5em
+  text-indent: 0em;
+  line-height: 1.5em;
+  margin-left:1.2em;
+  margin-right:2em;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+div.indent{
+  text-indent:2em;
+}
+
+img.leader{
+  width: 50%;
+  height: 50%;
+  margin-left: 30em;
+  object-fit: contain; 
+  float:center; 
+  overflow: hidden;
+}
+
+.people-former{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-weight: bold;
+  font-size: x-large;
+  font-size: 30px;
+  position: relative;
+  z-index: 1; /* Ensure the text is above the bar */
+  color: rgb(255,255,255)
+}
+.people-former-container {
+  position: relative; /* 相对定位，用于定位条形 */
+  margin-bottom: 20px;
+}
+
+.people-former-bar {
+  height: 40px; /* 条形的高度 */
+  background-color: #7fc7f8; /* 条形的颜色 */
+  position: absolute;
+  bottom: 0; /* Align the bar just below the text */
+  left: 0;
+  width: 90%; /* Ensure it spans the full width */
+  display: flex;
+  align-items: center; /* Vertically center the text in the bar */
+  justify-content: center;
+  margin-left: 3.6em;
+  margin-right: 4em;
+}
+
+.member-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.member {
+  flex: 1 1 200px; /* 这允许成员在容器中占据至少200px的宽度，但也可以更小 */
+  margin: 10px; /* 添加一些外边距 */
+  border: 0px solid #ccc;
+  padding: 10px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  color: #141414;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18zpx;
+  margin-left:4em;
+}
+.member img {
+  width: auto; /* 设置图片宽度为80px */
+  height: 200px; /* 保持图片高度自动，以维持图片的原始比例 */
+  margin-bottom: 10px; /* 图片和文本之间的间距 */
+  text-align: center;
+}
+.member:hover {
+  background-color:  #ffffff;
+}
+
+.member:hover h3 {
+  color: #013674; /* 鼠标悬停时名字变成蓝色 */
+}
+
+.member.active {
+  background-color: #ffffff;
+}
+
+.member.active.read-more  {
+  display: block;/* 点击后显示介绍 */
+}
+
+.read-more {
+  display: none;
+}
+
+
+.member.active .read-more {
+  display: block;
+  color: #141414;
+  text-align:left;
+  font-size: 17px;
+  margin-right:4em;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.alumni-table {
+  width: 100%; /* 表格宽度 */
+  border-collapse: collapse; /* 合并边框 */
+  margin: 20px 0; /* 上下边距 */
+  border: 0px solid #ddd; /* 表格边框 */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
+}
+
+.alumni-table td {
+  width: 33.333%; /* 三列宽度相等 */
+  border: 0px solid #ddd; /* 单元格边框 */
+  padding: 10px; /* 单元格内边距 */
+  text-align: center; /* 文本居中 */
+  vertical-align: middle; /* 垂直居中 */
+  display: table-cell;
+  font-family: 18zpx;
+}
+
+/*--------------- Publications Page--------------- */
+/* Publication list section */
+#pubinstr{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+p.pubsubtitle{
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ol.ref{
+    margin-left: 7em;
+    font-size: 20px;
+    margin-right:7em;
+}
+
+ul.ref{
+  margin-left: 6em;
+  margin-right:5em;
+  margin-left:5em;
+  list-style-type: none;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+
+.container {
+  position: relative; /* 相对定位，用于定位条形 */
+  margin-bottom: 20px;
+}
+
+.bar {
+  height: 31px; /* 条形的高度 */
+  background-color: #7fc7f8; /* 条形的颜色 */
+  position: absolute;
+  bottom: 0; /* Align the bar just below the text */
+  left: 0;
+  width: 80%; /* Ensure it spans the full width */
+  display: flex;
+  align-items: center; /* Vertically center the text in the bar */
+  justify-content: center;
+  margin-left: 8em;
+}
+
+.pubsubfield{
+  font-weight: bold;
+  font-size: 23px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  text-align: center; /* Center text */
+  position: relative;
+  z-index: 1; /* Ensure the text is above the bar */
+  color: rgb(255,255,255);
+}
+
+
+
+.article-container {
+  display: flex; /* 使图片和文本水平排列 */
+  align-items: center; /* 从顶部开始对齐 */
+  margin: 16px;
+  margin-left: 8em;
+}
+
+.article-image {
+  width: 120px; /* 图片宽度 */
+  height: auto; /* 保持图片比例 */
+  margin-right: 20px; /* 图片与文本之间的间距 */
+}
+
+.title {
+  color: rgb(10, 10, 10); /* 标题颜色 */
+  font-size: 18px; /* 标题字体大小 */
+}
+
+.authors, .publication {
+  font-size: 16px; /* 作者和出版信息字体大小 */
+  color: #444444; /* 作者和出版信息颜色 */
+}
+
+.publication a {
+  color: blue; /* PDF链接颜色 */
+  text-decoration: none; /* 去掉下划线 */
+}
+
+.publication a:hover {
+  text-decoration: underline; /* 鼠标悬停时添加下划线 */
+}
+</style>
+
+
+
+p.pubyear{
+    margin-left: 1em;
+    font-size: medium;
+}
+
+subtitle{
+  text-decoration-style: solid;
+}
+
+/*--------------- Gallery Page--------------- */
+img.gallery{
+  width: 70%;
+  height: 70%;
+  object-fit: contain; 
+  float:none; 
+  overflow: hidden;
+  margin-right: 60px;
+  margin-left: 60px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+div.gallery{
+  text-align: justify;
+  text-indent:0em;
+  font-size: 18px; 
+  padding-left: 0em;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column; /* 将flex方向设置为列 */
+  align-items: center; /* 水平居中对齐 */
+  flex-wrap: wrap; /* 允许换行 */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.image-container img {
+  width: 80%; /* 设置图片宽度为容器的100% */
+  height: auto; /* 保持图片的原始宽高比 */
+  max-width: 600px; /* 设置图片的最大宽度，防止图片过大 */
+  margin-bottom: 20px; /* 图片与文字之间的间距 */
+}
+
+.image-container p {
+  margin: 0; /* 去除默认的外边距 */
+  text-align: center;
+  margin-top: -10px;
+}
+
+/* 为两张图片之间的间距添加额外的外边距 */
+.image-container img:nth-child(3n+2) {
+  margin-top: 100px; /* 第二行第一张图片的上边距 */
+}
+
+
+
+/*--------------- news Page--------------- */
+.news-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.news{
+  flex: 1 1 200px; /* 这允许成员在容器中占据至少200px的宽度，但也可以更小 */
+  margin: 10px; /* 添加一些外边距 */
+  border: 0px solid #ccc;
+  padding: 10px;z
+  transition: all 0.3s ease;
+  cursor: pointer;
+  color: #141414;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15zpx;
+  margin-left:4em;
+  text-align: center;
+}
+
+.news img {
+  width: auto; /* 设置图片宽度为80px */
+  height: 200px; /* 保持图片高度自动，以维持图片的原始比例 */
+  margin-bottom: 10px; /* 图片和文本之间的间距 */
+  text-align: center;
+  transition: transform 0.3s ease; /* 平滑过渡效果 */
+}
+
+.news:hover {
+  background-color: #ffffff;
+}
+
+.news:hover img {
+  transform: scale(1.2); /* 点击时放大图片 */
+}
+
+/* Hover效果：文字变蓝 */
+.news:hover p {
+  color: #3498db; /* 设置字体颜色为蓝色 */
+}
+
+.news.active {
+  background-color: #ffffff;
+}
+
+.read-more {
+  display: none;
+}
+
+
+.news.active .read-more {
+  display: block;
+  color: #141414;
+  text-align:left;
+  font-size: 12zpx;
+  margin-right:4em;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+
+
+.news-current{
+  font-family: 'Times New Roman', Times, serif;
+  text-align:center;
+  font-weight: bold;
+  font-size: x-large;
+  font-size: 30px;
+  text-indent: 0em;
+  color:#013674;
+}
+
+    /* Style for modal (popup image) */
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 1;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    .modal-content {
+      margin: auto;
+      display: block;
+      width: 80%;
+      max-width: 700px;
+    }
+
+    .close {
+      position: absolute;
+      top: 15px;
+      right: 25px;
+      color: #f1f1f1;
+      font-size: 40px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .close:hover,
+    .close:focus {
+      color: #bbb;
+      text-decoration: none;
+      cursor: pointer;
+    }
